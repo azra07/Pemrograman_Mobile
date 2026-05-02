@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Song Kpop XML</string>
+    <string name="btn_youtube">YouTube</string>
+    <string name="btn_detail">Detail</string>
+    <string name="featured_title">Album Unggulan</string>
+    <string name="all_albums_title">Semua Album</string>
+</resources>

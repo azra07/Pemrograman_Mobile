@@ -1,0 +1,22 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Ganti parent ke NoActionBar agar bar ungu di atas hilang -->
+    <style name="Base.Theme.SongKpop_XML" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Warna Status Bar (Baterai, Sinyal, Jam) -->
+        <item name="android:statusBarColor">@color/grey_artist</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.SongKpop_XML" parent="Base.Theme.SongKpop_XML" />
+
+    <!-- Style Radius 12dp (Untuk Gambar di List) -->
+    <style name="RoundedImage12" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">12dp</item>
+    </style>
+
+    <!-- Style Radius 16dp (Untuk Gambar di Detail) -->
+    <style name="RoundedImage16" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">16dp</item>
+    </style>
+</resources>
